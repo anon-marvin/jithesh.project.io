@@ -1,0 +1,66 @@
+h1{
+    margin: 10px;
+}
+h2,a{
+    margin: 10px;
+}
+#information{
+    background: #95f76c;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+p{
+    padding: 8px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+    width: 95%;
+    border-radius: 10px;
+}
+#Insurance{
+    margin-left: 30px;
+}
+table{
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+th{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% / 4);
+} 
+button{
+    margin-left: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(167, 114, 216);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+input{
+    display: flex;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+a{
+    display: flex;
+}
+.myCellStyle {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% / 4);
+    text-align: center;
+    font-weight: bold;
+
+}

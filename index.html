@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vehicle Owner Information</h1>
+    <div id="information">
+        <p><strong>Name</strong> Ramesh Kumar</p>
+        <p><strong>Gender</strong> Male</p>
+        <p><strong>Address</strong> 123 Main Street, K.R Puram</p>
+        <p><strong>Driving License No</strong> DL123456</p>
+        <p><strong>Pollution Test ID</strong> PT98765</p>
+        <p><strong>Insurance ID</strong> INS456789</p>
+    </div>
+    <hr>
+        <div class="driving">
+            <h2>Driving License</h2>
+            <img id="dr" src="driving.jpeg">
+        </div>
+        <hr>
+        <div class="Insurance">
+            <h2>Insurance Document</h2>
+            <img src="insurance.jpg">
+        </div>
+         <hr>
+        <div >
+            <h2>Pollution Test Document</h2>
+            <img src="pollution.jpeg">
+        </div>
+        <hr>
+        <div >
+            <h2>RC Document</h2>
+            <img src="rc.jpeg">
+        </div>
+        <hr>
+        <h2>
+            Fines
+        </h2>
+        <table id="violationTable">
+                <tr>
+                  <th>Serial No</th>
+                  <th>Violation</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+                </tr>
+            <tr>
+            <th>1</th>
+            <th>Overspeeding</th>
+            <th>100</th>
+            <th>Paid</th>
+           </tr>
+            <tr>
+            <th>2</th>
+            <th>Helmet</th>
+            <th>100</th>
+            <th>Paid</th>
+            </tr>
+        </table>
+        <hr>
+        <form id="inputForm">
+            <input type="text" id="serialNoInput" placeholder="Serial No." required>
+            <input type="text" id="violationInput" placeholder="Violation of Rule" required>
+            <input type="text" id="amountInput" placeholder="Amount" required>
+            <input type="text" id="statusInput" placeholder="Status" required>
+            <button type="submit">Add Fine</button>
+          </form>
+          <hr>
+          <h2>Official Website Links</h2>
+          <a href="https://parivahan.gov.in/parivahan//en/content/driving-licence-0">Driving License</a> 
+          <a href="https://parivahan.gov.in/parivahan//en/content/driving-licence-0">Pollution Test</a> 
+          <a href="https://parivahan.gov.in/parivahan//en/content/driving-licence-0">RC Document</a> 
+          <a href="https://parivahan.gov.in/parivahan//en/content/driving-licence-0">Insurance</a> 
+         
+        <script src="1.js"></script>
+</body>
+
+</html>
